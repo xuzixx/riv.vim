@@ -15,7 +15,7 @@ setlocal bs=indent,eol,start
 
 if ! has('nvim')
     " neovim got rid of the fixdel command
-    fixdel
+    " fixdel
 endif
 
 if exists("g:riv_disable_indent") && g:riv_disable_indent == 1
